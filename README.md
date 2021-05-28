@@ -1,6 +1,6 @@
 # Margarita Rivera | Full stack
 
-## You will be able to checkout:
+## You will be able to see:
 
 -HTML
 
