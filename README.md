@@ -3,7 +3,9 @@
 ## You will be able to checkout:
 
 -HTML
+
 -CSS
+
 -ADVANCED CSS
 
 
