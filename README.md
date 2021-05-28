@@ -1,8 +1,15 @@
-#Margarita Rivera | Full stack
+# Margarita Rivera | Full stack
 
-In my page you can find hints about my personal life, 
-the projects I have worked on (run-buddy and Horiseon)
-and the information for contacting me.
+## You will be able to checkout:
+
+-HTML
+-CSS
+-ADVANCED CSS
 
 
+## You can find a description about me
+-Contact info:
 
+
+## For More Information
+View my work portfolio profile at 
