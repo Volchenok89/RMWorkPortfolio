@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+	background-image:url(../images/patter.jpg);
+}
+
+.holder {
+	width:90%;
+	margin-left:auto;
+	margin-right:auto;
+	border: 1px solid black;
+}
+
+.banner {
+	height: 300px;
+	border: 1px solid black;
+	background-image:url(../images/onoff.jpg);
+}
+
+.menu {
+	float:right;
+	margin-right: 80px;
+	font-family:Tahoma, Geneva, sans-serif;
+	color: #000;
+	text-align:center;
+}
+
+.menu li {
+	list-style-type:none;
+	text-decoration:none;
+	display:inline-block;
+	background-color:#ccc;
+	padding: 10px 0 10px 0;
+
+}
+
+a {
+	text-decoration:none;
+	color: #000;
+	padding: 10px 20px;
+	background-color: #ccc;
+}
+
+a:visited {
+	color: #000;
+}
+
+a:hover {
+	color: red;
+	background-color:#00DFFF;
+}
+
+
+.about {
+    width: 650px;
+	height:250px;
+    padding: 50px;
+	overflow: hidden;
+	margin-left: 50px;
+	margin-bottom: 50px;
+}
+
+.about img {
+    margin-right: 15px;
+    float: left;
+	width: 200px;
+}
+
+.about h3,
+.about p{
+    margin-left: 15px;
+    display: block;
+    margin: 2px 0 0 0;
+}
+
+.work {
+    width: 500px;
+	min-height:350px;
+    padding: 20px;
+    overflow: hidden;
+	margin-left: 50px;
+}
+
+.container {
+	display: block;
+	grid-template-columns: 500px 500px ;
+	grid-template-rows: 500px 500px;
+	grid-auto-flow: row;
+
+  }
+
+.work img {
+    margin-right: 15px;
+    float: left;
+	width: 200px;
+}
+
+.two {
+    margin-right: 15px;
+    float: right;
+	width: 500px;
+
+
+}
+
+.work h3,
+.work p{
+    margin-left: 15px;
+    display: block;
+    margin: 2px 0 0 0;
+}
+
+
+.contact {
+    width: 700px;
+	height: 200px;
+    padding: 20px;
+    overflow: hidden;
+	margin-left: 50px;
+}
+
+.contact img {
+    margin-right: 15px;
+    float: left;
+	width: 300px;
+}
+
+.contact h3,
+.contact p{
+    margin-left: 15px;
+    display: block;
+    margin: 2px 0 0 0;
+	text-align:left;
+}
+
+
+
+h1 {
+	color: #FFF;
+	margin: 10px 0 10px 0;
+	height: 50px;
+}
+
+p {
+	color: #FFF;
+	text-align:justify;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+
+.separation {
+	background-image:url(../images/separator.png);
+	background-repeat:repeat-x;
+	height: 10px;
+}
+
+.footer {
+	height: 100px;
+
+}
+
+.footer p {
+	color: orange;
+}
