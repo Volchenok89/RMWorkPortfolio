@@ -4,6 +4,7 @@
     margin: 0;
 }
 
+<<<<<<< HEAD
 
 body {
 	background-image:url(../images/patter.jpg);
@@ -166,3 +167,8 @@ p {
 .footer p {
 	color: orange;
 }
+=======
+body {
+    background-image: "keyboard.jpg"
+}
+>>>>>>> d9e67869bf4ae905cd30530d434a3945bd0aefdb
