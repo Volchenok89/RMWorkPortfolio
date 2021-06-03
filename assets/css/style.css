@@ -4,10 +4,9 @@
     margin: 0;
 }
 
-<<<<<<< HEAD
 
 body {
-	background-image:url(../images/patter.jpg);
+	background-image:url(../images/keyboard.jpg);
 }
 
 .holder {
@@ -20,7 +19,7 @@ body {
 .banner {
 	height: 300px;
 	border: 1px solid black;
-	background-image:url(../images/onoff.jpg);
+	background-image:url(../images/banner.jpeg);
 }
 
 .menu {
@@ -59,11 +58,10 @@ a:hover {
 
 .about {
     width: 650px;
-	height:250px;
-    padding: 50px;
-	overflow: hidden;
+	height:350px;
+    padding: 20px;
+    overflow: hidden;
 	margin-left: 50px;
-	margin-bottom: 50px;
 }
 
 .about img {
@@ -80,33 +78,18 @@ a:hover {
 }
 
 .work {
-    width: 500px;
+    width: 45%;
 	min-height:350px;
     padding: 20px;
     overflow: hidden;
 	margin-left: 50px;
+	float:left;
 }
-
-.container {
-	display: block;
-	grid-template-columns: 500px 500px ;
-	grid-template-rows: 500px 500px;
-	grid-auto-flow: row;
-
-  }
 
 .work img {
     margin-right: 15px;
     float: left;
 	width: 200px;
-}
-
-.two {
-    margin-right: 15px;
-    float: right;
-	width: 500px;
-
-
 }
 
 .work h3,
@@ -116,10 +99,38 @@ a:hover {
     margin: 2px 0 0 0;
 }
 
+/*
+.content-right {
+	float:right;
+	margin-right:50px;
+	border: 1px solid yellow;
+}
+*/
+
+.work-right {
+    width: 45%;
+	min-height:350px;
+    padding: 20px;
+    overflow: hidden;
+	margin-left: 50px;
+}
+
+.work-right img {
+    margin-right: 15px;
+    float: left;
+	width: 200px;
+}
+
+.work-right h3,
+.work-right p{
+    margin-left: 15px;
+    display: block;
+    margin: 2px 0 0 0;
+}
+
 
 .contact {
-    width: 700px;
-	height: 200px;
+    width: 60%;
     padding: 20px;
     overflow: hidden;
 	margin-left: 50px;
@@ -128,7 +139,7 @@ a:hover {
 .contact img {
     margin-right: 15px;
     float: left;
-	width: 300px;
+	width:300px;
 }
 
 .contact h3,
@@ -160,15 +171,12 @@ p {
 }
 
 .footer {
-	height: 100px;
-
+	color: orange;
+	text-align:center;
+	background-color: #444;
 }
 
 .footer p {
-	color: orange;
+	color: #FFF;
+	text-align:center;
 }
-=======
-body {
-    background-image: "keyboard.jpg"
-}
->>>>>>> d9e67869bf4ae905cd30530d434a3945bd0aefdb
