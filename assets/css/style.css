@@ -17,7 +17,7 @@ body {
 }
 
 .banner {
-	height: 300px;
+	height: 140px;
 	border: 1px solid black;
 	background-image:url(../images/bannerpassword.jpg);
 }
@@ -58,8 +58,8 @@ a:hover {
 
 .about {
     width: 650px;
-	height:250px;
-    padding: 30px;
+	height:350px;
+    padding: 20px;
     overflow: hidden;
 	margin-left: 50px;
 }
@@ -67,10 +67,14 @@ a:hover {
 .about img {
     margin-right: 15px;
     float: left;
-	width: 200px;
+	width:200px;
+	height: 140px;
 }
 
-.about h3,
+.about h1 {
+	font-family:Tahoma, Geneva, sans-serif;
+}
+
 .about p{
     margin-left: 15px;
     display: block;
@@ -78,9 +82,9 @@ a:hover {
 }
 
 .work {
-    width: 45%;
-	min-height:250px;
-    padding: 30px;
+    width: 500px;
+	min-height:350px;
+    padding: 20px;
     overflow: hidden;
 	margin-left: 50px;
 	float:left;
@@ -89,10 +93,14 @@ a:hover {
 .work img {
     margin-right: 15px;
     float: left;
-	width: 200px;
+	width:200px;
+	height: 140px;
 }
 
-.work h3,
+.work h1 {
+	font-family:Tahoma, Geneva, sans-serif;
+}
+
 .work p{
     margin-left: 15px;
     display: block;
@@ -108,9 +116,9 @@ a:hover {
 */
 
 .work-right {
-    width: 45%;
-	min-height:250px;
-    padding: 30px;
+    width: 500px;
+	min-height:350px;
+    padding: 20px;
     overflow: hidden;
 	margin-left: 50px;
 }
@@ -118,10 +126,15 @@ a:hover {
 .work-right img {
     margin-right: 15px;
     float: left;
-	width: 200px;
+	width:200px;
+	height: 140px;
 }
 
-.work-right h3,
+.work-right h1 {
+	font-family:Tahoma, Geneva, sans-serif;
+}
+
+
 .work-right p{
     margin-left: 15px;
     display: block;
@@ -131,7 +144,7 @@ a:hover {
 
 .contact {
     width: 60%;
-    padding: 30px;
+    padding: 20px;
     overflow: hidden;
 	margin-left: 50px;
 }
@@ -140,6 +153,7 @@ a:hover {
     margin-right: 15px;
     float: left;
 	width:200px;
+	height: 140px;
 }
 
 .contact h3,
@@ -174,10 +188,12 @@ p {
 	color: orange;
 	text-align:center;
 	background-color: #444;
-	height: 50px;
+	padding-top: 15px;
+	padding-bottom: 20px;
 }
 
 .footer p {
 	color: #FFF;
 	text-align:center;
+	font-family:Tahoma, Geneva, sans-serif;
 }
