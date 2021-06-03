@@ -58,8 +58,8 @@ a:hover {
 
 .about {
     width: 650px;
-	height:350px;
-    padding: 20px;
+	height:250px;
+    padding: 30px;
     overflow: hidden;
 	margin-left: 50px;
 }
@@ -79,8 +79,8 @@ a:hover {
 
 .work {
     width: 45%;
-	min-height:350px;
-    padding: 20px;
+	min-height:250px;
+    padding: 30px;
     overflow: hidden;
 	margin-left: 50px;
 	float:left;
@@ -109,8 +109,8 @@ a:hover {
 
 .work-right {
     width: 45%;
-	min-height:350px;
-    padding: 20px;
+	min-height:250px;
+    padding: 30px;
     overflow: hidden;
 	margin-left: 50px;
 }
@@ -131,7 +131,7 @@ a:hover {
 
 .contact {
     width: 60%;
-    padding: 20px;
+    padding: 30px;
     overflow: hidden;
 	margin-left: 50px;
 }
@@ -139,7 +139,7 @@ a:hover {
 .contact img {
     margin-right: 15px;
     float: left;
-	width:300px;
+	width:200px;
 }
 
 .contact h3,
