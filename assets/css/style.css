@@ -97,9 +97,9 @@ a:hover {
     float: left;
 	width:200px;
 	height: 140px;
+	border-radius: 10px;
 	
 	
-
 }
 
 .about h1 {
@@ -132,6 +132,8 @@ a:hover {
     float: left;
 	width:200px;
 	height: 140px;
+	border-radius: 10px;
+
 }
 
 .work h1 {
@@ -159,6 +161,8 @@ a:hover {
     float: left;
 	width:200px;
 	height: 140px;
+	border-radius: 10px;
+	
 }
 
 .work-right h1 {
@@ -193,7 +197,7 @@ h1 {
 }
 
 p {
-	color: rgb(215, 247, 168);
+	color: rgb(204, 248, 138);
 	text-align:center;
 	font-family:Tahoma, Geneva, sans-serif;
 }
