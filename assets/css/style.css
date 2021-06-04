@@ -20,7 +20,7 @@ body {
 }
 
 .banner {
-	height: 140px;
+	height: 170px;
 	border: 1px solid black;
 	background-image:url(../images/bannerpassword.jpg);
 }
