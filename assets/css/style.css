@@ -9,6 +9,8 @@ body {
 	background-image:url(../images/keyboard.jpg);
 }
 
+
+/*STARTING HEADER*/
 .holder {
 	width:90%;
 	margin-left:auto;
@@ -22,6 +24,8 @@ body {
 	background-image:url(../images/bannerpassword.jpg);
 }
 
+
+/*STARTING MENU*/
 .menu {
 	float:right;
 	margin-right: 80px;
@@ -55,10 +59,34 @@ a:hover {
 	background-color:#00DFFF;
 }
 
+/*ENDING MENU*/
+/*ENDING HEADER*/
+
+
+/*SEPARATOR*/
+.separation {
+	background-image:url(../images/separator.png);
+	background-repeat:repeat-x;
+	height: 10px;
+}
+
+/*ENDING SEPARATOR*/
+
+
+/*STARTING ABOUT ME*/
+
+.content {
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+  }
+
 
 .about {
     width: 650px;
-	height:350px;
+	height:250px;
     padding: 20px;
     overflow: hidden;
 	margin-left: 50px;
@@ -69,6 +97,9 @@ a:hover {
     float: left;
 	width:200px;
 	height: 140px;
+	
+	
+
 }
 
 .about h1 {
@@ -79,11 +110,17 @@ a:hover {
     margin-left: 15px;
     display: block;
     margin: 2px 0 0 0;
+	
+	
 }
 
+/*ENDING ABOUT ME*/
+
+
+/*STARTING MY WORK*/
 .work {
     width: 500px;
-	min-height:350px;
+	min-height:250px;
     padding: 20px;
     overflow: hidden;
 	margin-left: 50px;
@@ -107,18 +144,12 @@ a:hover {
     margin: 2px 0 0 0;
 }
 
-/*
-.content-right {
-	float:right;
-	margin-right:50px;
-	border: 1px solid yellow;
-}
-*/
+
 
 .work-right {
     width: 500px;
-	min-height:350px;
-    padding: 20px;
+	min-height:250px;
+    padding: 30px;
     overflow: hidden;
 	margin-left: 50px;
 }
@@ -142,6 +173,10 @@ a:hover {
 }
 
 
+/*ENDING MY WORK*/
+
+
+/*STARTING MY CONTACT*/
 .contact {
     width: 60%;
     padding: 20px;
@@ -149,41 +184,69 @@ a:hover {
 	margin-left: 50px;
 }
 
-.contact img {
-    margin-right: 15px;
-    float: left;
-	width:200px;
-	height: 140px;
-}
-
-.contact h3,
-.contact p{
-    margin-left: 15px;
-    display: block;
-    margin: 2px 0 0 0;
-	text-align:left;
-}
-
-
 
 h1 {
 	color: #FFF;
 	margin: 10px 0 10px 0;
 	height: 50px;
+	display: center;
 }
 
 p {
-	color: #FFF;
-	text-align:justify;
+	color: rgb(215, 247, 168);
+	text-align:center;
 	font-family:Tahoma, Geneva, sans-serif;
 }
 
-.separation {
-	background-image:url(../images/separator.png);
-	background-repeat:repeat-x;
-	height: 10px;
+
+
+.contact h1 {
+	font-family:Tahoma, Geneva, sans-serif;
+	display: center;
 }
 
+.contact p{
+    margin-left: 15px;
+    display: block;
+    margin: 2px 0 0 0;
+	text-align:center;
+}
+
+
+.contact-form input, .contact-form textarea {
+
+	border: 1px solid #fd3fc4;
+	display: block;
+	padding: 7px 15px;
+	font-size: 16px;
+	color: #024e76;
+	width: 40%;
+	margin-bottom: 15px;
+	margin-top: 10px;
+	float: center;
+	
+	}
+
+	.contact-form button {
+		width: 40%;
+		border: none;
+		background-color: #fce138;
+		color: #fd3fc4;
+		padding: 15px 30px;
+		text-align: center;
+		font-size: 16px;
+		margin-bottom: 15px;
+	    margin-top: 10px;
+		float: center;
+
+	}
+
+
+/*ENDING MY CONTACT*/
+
+
+
+/*STARTING MY FOOTER*/
 .footer {
 	color: orange;
 	text-align:center;
@@ -197,3 +260,7 @@ p {
 	text-align:center;
 	font-family:Tahoma, Geneva, sans-serif;
 }
+
+/*ENDING MY FOOTER*/
+
+
