@@ -16,6 +16,7 @@ body {
 	margin-left:auto;
 	margin-right:auto;
 	border: 1px solid black;
+	
 }
 
 .banner {
@@ -32,6 +33,9 @@ body {
 	font-family:Tahoma, Geneva, sans-serif;
 	color: #000;
 	text-align:center;
+	border-radius: 10px;
+	outline: none;
+	
 }
 
 .menu li {
@@ -40,24 +44,33 @@ body {
 	display:inline-block;
 	background-color:#ccc;
 	padding: 10px 0 10px 0;
+	outline: none;
 
 }
 
+/* default state */
 a {
 	text-decoration:none;
 	color: #000;
 	padding: 10px 20px;
 	background-color: #ccc;
+	border-radius: 10px;
+	outline: none;
 }
 
-a:visited {
+    /* user is actively pressing the cursor down on the button */
+  
+ a:visited {
 	color: #000;
+	outline: none;
 }
 
-a:hover {
-	color: red;
-	background-color:#00DFFF;
-}
+  a:hover {
+	background: red;
+	outline: none;
+  }
+  
+
 
 /*ENDING MENU*/
 /*ENDING HEADER*/
