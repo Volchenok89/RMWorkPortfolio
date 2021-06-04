@@ -203,10 +203,10 @@ p {
 }
 
 
-
 .contact h1 {
 	font-family:Tahoma, Geneva, sans-serif;
-	display: center;
+	display: right;
+
 }
 
 .contact p{
@@ -215,6 +215,17 @@ p {
     margin: 2px 0 0 0;
 	text-align:center;
 }
+
+.contact-form {
+	padding: 7px 15px;
+	margin: 0 auto;
+	margin-bottom: 15px;
+	margin-top: 10px;
+	float: center;
+	color: #024e76;
+	
+}
+
 
 
 .contact-form input, .contact-form textarea {
@@ -238,10 +249,9 @@ p {
 		color: #fd3fc4;
 		padding: 15px 30px;
 		text-align: center;
-		font-size: 16px;
 		margin-bottom: 15px;
 	    margin-top: 10px;
-		float: center;
+		float: left;
 
 	}
 
@@ -268,3 +278,20 @@ p {
 /*ENDING MY FOOTER*/
 
 
+
+
+/*STARTING SMALLER SCREENS*/
+@media screen and (max-width: 980px) {
+
+	  
+	  
+  }
+
+  @media screen and (max-width: 768px) {
+
+	section {
+	  padding: 30px 15px;
+	}
+  }
+
+  /*ENDING SMALLER SCREENS*/
