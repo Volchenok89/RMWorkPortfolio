@@ -4,6 +4,19 @@
     margin: 0;
 }
 
+:root {
+	--primary-color: #FFF;
+	--secondary-color: rgb(204, 248, 138);
+	--tertiary-color: black;
+	--quaternary-color: #024e76; 
+	--quinary-color: #fd3fc4;
+	--senary-color: #ccc;
+	--septenary-color: orange;
+	--octonary-color: red;
+	--nonary-color: #fce138;
+	--denary-color: #444;
+  }
+  
 
 body {
 	background-image:url(../images/keyboard.jpg);
@@ -15,13 +28,16 @@ body {
 	width:90%;
 	margin-left:auto;
 	margin-right:auto;
-	border: 1px solid black;
+	border: 1px solid; 
+	color: var(--tertiary-color);
 	
 }
 
 .banner {
-	height: 170px;
-	border: 1px solid black;
+	height: 200px;
+	width: 100%;
+	border: 1px solid; 
+	color: var(--tertiary-color);
 	background-image:url(../images/bannerpassword.jpg);
 }
 
@@ -31,29 +47,35 @@ body {
 	float:right;
 	margin-right: 80px;
 	font-family:Tahoma, Geneva, sans-serif;
-	color: #000;
+	color:var(--tertiary-color);
 	text-align:center;
-	border-radius: 10px;
+	border-radius: 5px;
 	outline: none;
-	
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: var(--denary-color);
+
 }
+
 
 .menu li {
 	list-style-type:none;
 	text-decoration:none;
 	display:inline-block;
-	background-color:#ccc;
+	background-color:C;
 	padding: 10px 0 10px 0;
 	outline: none;
-
+	float: left;
 }
 
 /* default state */
 a {
 	text-decoration:none;
-	color: #000;
+	color:var(--tertiary-color);
 	padding: 10px 20px;
-	background-color: #ccc;
+	background-color: var(--senary-color);
 	border-radius: 10px;
 	outline: none;
 }
@@ -61,12 +83,12 @@ a {
     /* user is actively pressing the cursor down on the button */
   
  a:visited {
-	color: #000;
+	color:var(--septerary-color);
 	outline: none;
 }
 
   a:hover {
-	background: red;
+	background: var(--septenary-color);
 	outline: none;
   }
   
@@ -203,14 +225,14 @@ a {
 
 
 h1 {
-	color: #FFF;
+	color: var(--primary-color);
 	margin: 10px 0 10px 0;
 	height: 50px;
 	display: center;
 }
 
 p {
-	color: rgb(204, 248, 138);
+	color: var(--secondary-color);
 	text-align:center;
 	font-family:Tahoma, Geneva, sans-serif;
 }
@@ -235,7 +257,7 @@ p {
 	margin-bottom: 15px;
 	margin-top: 10px;
 	float: center;
-	color: #024e76;
+	color: var(--quaternary-color);
 	
 }
 
@@ -243,11 +265,11 @@ p {
 
 .contact-form input, .contact-form textarea {
 
-	border: 1px solid #fd3fc4;
+	border: 1px solid; color: var(--quinary-color);
 	display: block;
 	padding: 7px 15px;
 	font-size: 16px;
-	color: #024e76;
+	color: var(--quaternary-color);
 	width: 40%;
 	margin-bottom: 15px;
 	margin-top: 10px;
@@ -258,8 +280,8 @@ p {
 	.contact-form button {
 		width: 40%;
 		border: none;
-		background-color: #fce138;
-		color: #fd3fc4;
+		background-color: var(--nonary-color);;
+		color: var(--quinary-color);
 		padding: 15px 30px;
 		text-align: center;
 		margin-bottom: 15px;
@@ -275,15 +297,15 @@ p {
 
 /*STARTING MY FOOTER*/
 .footer {
-	color: orange;
+	color: var(--septenary-color);
 	text-align:center;
-	background-color: #444;
+	background-color: var(--denary-color);
 	padding-top: 15px;
 	padding-bottom: 20px;
 }
 
 .footer p {
-	color: #FFF;
+	color: var(--primary-color);
 	text-align:center;
 	font-family:Tahoma, Geneva, sans-serif;
 }
