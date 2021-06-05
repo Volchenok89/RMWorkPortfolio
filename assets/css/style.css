@@ -286,10 +286,11 @@ p {
 
 
 /* MEDIA QUERY FOR SMALLER LAPTOPS*/
-@media screen and (max-width: 980px) and (min-width: 769px) {
+@media screen and (max-width: 980px) {
 	
 	.body {
 		width: 768px;
+		height: 980px;
 	}
 
 	.hero-form button {
@@ -322,10 +323,10 @@ p {
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER*/
 
-@media screen and (max-width: 768px) and (min-width: 576px) {
+@media screen and (max-width: 768px) {
 	.body {
 		width: 575px;
-
+		height: 800px;
 	}
 
 	.hero-form button {
@@ -358,11 +359,12 @@ p {
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 
-@media screen and (max-width: 575px)  and (min-width: 383px){
+@media screen and (max-width: 575px)  {
 
 
 	.body {
 		width: 382px;
+		height: 600px;
 
 	}
 	.hero-form button {
