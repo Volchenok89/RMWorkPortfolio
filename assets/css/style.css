@@ -282,8 +282,11 @@ p {
 
 /*ENDING MY FOOTER*/
 
-/*STARTING SMALLER SCREENS*/
-@media screen and (max-width: 980px) {
+
+
+
+/* MEDIA QUERY FOR SMALLER LAPTOPS*/
+@media screen and (max-width: 980px) and (min-width: 769px) {
 	
 	.body {
 		width: 768px;
@@ -317,8 +320,9 @@ p {
 }
 
 
+/* MEDIA QUERY FOR TABLETS AND SMALLER*/
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) and (min-width: 576px) {
 	.body {
 		width: 575px;
 
@@ -351,7 +355,10 @@ p {
 }
 
 
-@media screen and (max-width: 575px) {
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+
+@media screen and (max-width: 575px)  and (min-width: 383px){
 
 
 	.body {
@@ -381,6 +388,7 @@ p {
   
 	.contact-form > * {
 	  flex: 0 100%;
+	  order: 3;
 	}
   }
 
