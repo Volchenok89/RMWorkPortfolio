@@ -286,8 +286,33 @@ p {
 @media screen and (max-width: 980px) {
 	
 	.body {
-		width: 700px;
+		width: 768px;
 	}
+
+	.hero-form button {
+		width: 100%;
+	  }
+	
+		
+	  .p {
+		width: 100%;
+		text-align: center;
+	  }
+	
+	  .work {
+		flex: 0 100%;
+		text-align: center;
+	  }
+	
+	  .work-right {
+		  flex: 0 100%;
+		  text-align: center;
+		}
+	  
+	
+	  .contact-form > * {
+		flex: 0 100%;
+	  }
 
 }
 
@@ -295,8 +320,68 @@ p {
 
 @media screen and (max-width: 768px) {
 	.body {
-		width: 380px;
+		width: 575px;
+
 	}
+
+	.hero-form button {
+		width: 100%;
+	  }
+	
+		
+	  .p {
+		width: 100%;
+		text-align: center;
+	  }
+	
+	  .work {
+		flex: 0 100%;
+		text-align: center;
+	  }
+	
+	  .work-right {
+		  flex: 0 100%;
+		  text-align: center;
+		}
+	  
+	
+	  .contact-form > * {
+		flex: 0 100%;
+	  }
 }
+
+
+@media screen and (max-width: 575px) {
+
+
+	.body {
+		width: 382px;
+
+	}
+	.hero-form button {
+	  width: 100%;
+	}
+  
+	  
+	.p {
+	  width: 100%;
+	  text-align: center;
+	}
+  
+	.work {
+	  flex: 0 100%;
+	  text-align: center;
+	}
+  
+	.work-right {
+		flex: 0 100%;
+		text-align: center;
+	  }
+	
+  
+	.contact-form > * {
+	  flex: 0 100%;
+	}
+  }
 
 /*ENDING SMALLER SCREENS*/
