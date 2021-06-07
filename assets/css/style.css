@@ -18,7 +18,7 @@
 }
 
 body {
-  width: 1500px;
+  /* width: 1500px; */
   background-image: url(../images/keyboard.jpg);
 }
 
@@ -33,7 +33,11 @@ body {
 }
 
 .banner {
-  height: 250px;
+  margin-top: 40px;
+  background-size: cover;	
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 5vh;
   width: 100%;
   border: 1px solid;
   color: var(--tertiary-color);
@@ -178,7 +182,7 @@ body {
 }
 
 .work {
-  width: 45%;
+  min-width: 200px; 
   min-height: 250px;
   padding: 20px;
   overflow: hidden;
@@ -216,38 +220,6 @@ body {
   font-family: "Courier New", Courier, monospace;
 }
 
-.work-right {
-  width: 45%;
-  min-height: 250px;
-  padding: 30px;
-  overflow: hidden;
-}
-
-.work-right img {
-  margin-right: 15px;
-  float: left;
-  width: 300px;
-  border-radius: 5px;
-  background-color: var(--primary-color);
-  padding: 5px;
-  height: 210px;
-}
-
-.work-right h1 {
-  font-family: Tahoma, Geneva, sans-serif;
-  color: var(--primary-color);
-}
-
-.work-right p {
-	margin-left: 15px;
-	display: block;
-	margin: 1px 0 0 0;
-	text-align: justify;
-	color: var(--secondary-color);
-	font-size: 100%;
-	font-family: "Courier New", Courier, monospace;
-
-}
 
 /*ENDING MY WORK*/
 
@@ -266,14 +238,14 @@ body {
   color: var(--primary-color);
   margin: 50px 100px 0px 0;
   margin-right: 100px;
-  float: left;
+  /* float: left; */
 }
 
 .contact-form {
   padding: 7px 15px;
   margin-bottom: 5px;
-  margin-top: -100px;
-  float: left;
+  /* margin-top: -100px; */
+  /* float: left; */
   color: var(--quaternary-color);
   width: 100%;
   margin-left: auto;
@@ -291,7 +263,7 @@ body {
   width: 40%;
   margin-bottom: 15px;
   margin-top: 10px;
-  float: center;
+  /* float: center; */
 }
 
 .contact-form button {
@@ -303,14 +275,14 @@ body {
   text-align: center;
   margin-bottom: 15px;
   margin-top: 10px;
-  float: left;
+  /* float: left; */
 }
 
 .contact p {
   /*margin-left: 15px;*/
   display: block;
-  margin: 200px 200px 15px 0px;
-  text-align: right;
+  margin: 15px 15px 15px 15px;
+  text-align: center;
   font-size: 150%;
   font-family: "Courier New", Courier, monospace;
   color: var(--secondary-color);
@@ -338,22 +310,38 @@ body {
   
 
  /* MEDIA QUERY FOR DESKTOP & LAPTOPS*/
-  @media (min-width:981) and (max-width: 1440px) {
+/* @media (min-width:981) and (max-width: 1440px) {
 }
   
   /* MEDIA QUERY FOR SMALL LAPTOPS*/
-@media (min-width:769) and (max-width: 980px) {
-}
+/* @media (min-width:769) and (max-width: 980px) { */
+/* } */
 
 /* MEDIA QUERY FOR TABLETS*/
 
-@media (min-width:576) and (max-width: 768px) {
-}
+/* @media (min-width:576) and (max-width: 768px) { */
+/* } */
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 
-@media (min-width:300) and (max-width: 575px) {
+/* @media (min-width:300) and (max-width: 575px) { */
   
+/* } */
+ 
+
+@media only screen and (max-width: 520px) {
+
+	.contact p {
+
+	font-size: 80%;
+	
+	  }
+
+	  .about img {
+		float: none;
+		
+	  }
+
 }
 
 
