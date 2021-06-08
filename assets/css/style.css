@@ -322,12 +322,9 @@ body {
 /* @media (min-width:576) and (max-width: 768px) { */
 /* } */
 
-/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 
-/* @media (min-width:300) and (max-width: 575px) { */
-  
-/* } */
- 
+
+/* MEDIA QUERY FOR MOBILE PHONES */
 
 @media only screen and (max-width: 575px) and (max-height: 667px) {
 
@@ -405,3 +402,106 @@ body {
 
 
 /*ENDING SMALLER SCREENS*/
+
+
+@media only screen and (max-width: 768px) and (max-height: 1600px) {
+
+
+	/* BANNER SECTION */
+	.banner {
+		height: 10vh;
+		width: 150%;
+	}
+
+
+	/* ABOUT ME SECTION */
+
+	.about {
+		height: 450px;
+	}
+
+	.about h1 {
+		font-size: 300%;
+		margin-left: 300px;
+		margin-top: 40px;
+	}
+
+	.about img {
+		align-content: center;
+		margin-right: 20px;
+		margin-top: 30px;
+		margin-left: 80px;
+		float: left;
+		width: 250px;
+	}
+	
+
+	.about p {
+		margin-right: 0px;
+	  }
+
+
+
+	/* MY WORK SECTION */
+	.work {
+		margin-left: 15px;
+		margin-bottom: 20px;
+		width: 120%;
+		height: 350px;
+	}
+
+	.work h1 {
+		margin-top: 55px;
+	}
+
+	.work image {
+		margin-left: 85px;
+		margin-top: 45px;
+		
+	}
+
+	.work p{
+		margin: 20px 0 0 0;
+	}
+
+	/* CONTACT ME SECTION */
+
+	.contact {
+		height: 700px;
+	}
+
+	.contact h1 {
+		margin: 50px 100px 0px 300px;
+	}
+
+	.contact p {
+		font-size: 80%;
+	}
+
+	.contact-form {
+		padding: 15px 15px;
+		margin-bottom: 5px;
+		margin-left: 45%;
+		margin-top: 100px;
+	}
+
+	.contact h1 {
+		margin-top: 100px;
+	}
+
+	/* FOOTER SECTION */
+	.footer {
+		width: 1004px;
+	  }
+
+	.footer p {
+		margin: 15px 15px 15px 195px;
+	  }
+
+	.separation {
+		height: 10px;
+		width: 734px;
+	}
+
+	
+}
