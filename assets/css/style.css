@@ -400,9 +400,8 @@
 		margin-left: 4px;
 		margin-bottom: 40px;
 		float: left;
-		width: 400px;
+		width: 300px;
     	height: 300px;
-		
 	}
 	
 	.about p {
@@ -444,7 +443,7 @@
 	}
 
 	.contact p {
-		margin: 15px 15px 15px 30%;
+		margin: 15px 15px 15px 15%;
 		text-align: center;
 		font-size: 140%;
 	}
@@ -496,17 +495,17 @@
 
 .about img {
     margin-right: 5px;
-	margin-left: 25px;
+	margin-left: 20px;
     width: 350px;
 }
 
 .contact h1 {
 	font-size: 300%;
-	margin: 50px 0px 0px 40%;
+	margin: 50px 0px 0px 30%;
 	}
 
   .contact p {
-	margin: 15px 15px 15px 25%;
+	margin: 15px 15px 15px 15%;
 	font-size: 100%;
 	
   }
