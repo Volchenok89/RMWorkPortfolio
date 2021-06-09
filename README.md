@@ -17,5 +17,3 @@
 View my work portfolio profile at https://volchenok89.github.io/RMWorkPortfolio
 
 
-![Screenshot1](/../<Mmain>/Desktop/Homework/Challenge2/assets/images/portfolio1.jpg "iphone8 schreenshot")
-
