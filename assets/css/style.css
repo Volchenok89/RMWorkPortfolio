@@ -41,8 +41,8 @@ body {
   background-size: cover;	
   background-repeat: no-repeat;
   background-position: center;
-  height: 20vh;
-  width: 100%;
+  height: 30vh;
+  width: 130%;
   border: 1px solid;
   color: var(--tertiary-color);
   background-image: url(../images/bannerpassword.jpg);
