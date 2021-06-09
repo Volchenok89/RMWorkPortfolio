@@ -442,6 +442,13 @@
 	.contact h1 {
 		margin: 40px 0px 0px 25%;
 	}
+
+	.contact p {
+		margin: 15px 15px 15px 30%;
+		text-align: center;
+		font-size: 140%;
+	}
+
 }
 
 /* ENDING 760PX SCREENS */
@@ -450,7 +457,7 @@
 
 /*STARTING 575PX SCREENS*/
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 575px) {
 
 .about h1 {
     margin-left: 25%;
@@ -489,18 +496,19 @@
 
 .about img {
     margin-right: 5px;
+	margin-left: 25px;
     width: 350px;
 }
 
 .contact h1 {
 	font-size: 300%;
-	margin: 50px 0px 0px 55%;
+	margin: 50px 0px 0px 40%;
 	}
 
   .contact p {
 	margin: 15px 15px 15px 25%;
 	font-size: 100%;
-	color: var(--secondary-color);
+	
   }
 
 }
