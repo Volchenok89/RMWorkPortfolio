@@ -1,340 +1,335 @@
 * {
-	box-sizing: border-box;
-	padding: 0;
-	margin: 0;
-	
-   }
-  
-  :root {
-	--primary-color: #fff;
-	--secondary-color: rgb(204, 248, 138);
-	--tertiary-color: black;
-	--quaternary-color: #024e76;
-	--quinary-color: #fd3fc4;
-	--senary-color: #ccc;
-	--septenary-color: orange;
-	--octonary-color: red;
-	--nonary-color: #fce138;
-	--denary-color: #444;
-  }
-  
-  body {
-	/* width: 1500px; */
-	background-image: url(../images/keyboard.jpg);
-	background-size: cover;	
-	background-repeat: no-repeat;
-	width: 100%;
-  }
-  
-  
-  /*STARTING HEADER*/
-  .holder {
-	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
-	border: 1px solid;
-	color: var(--tertiary-color);
-  }
-  
-  .banner {
-	margin-top: 40px;
-	background-size: cover;	
-	background-repeat: no-repeat;
-	background-position: center;
-	height: 30vh;
-	width: 130%;
-	border: 1px solid;
-	color: var(--tertiary-color);
-	background-image: url(../images/bannerpassword.jpg);
-  }
-  
-  /*SEPARATOR*/
-  .separation {
-	  background-image: url(../images/separator.png);
-	  background-repeat: repeat-x;
-	  height: 10px;
-	  width: 130%;
-	}
-	
-	/*ENDING SEPARATOR*/
-  
-  /*STARTING MENU*/
-  .menu {
-	  float: right;
-	  margin-right: 80px;
-	  font-family: Tahoma, Geneva, sans-serif;
-	  color: var(--tertiary-color);
-	  text-align: center;
-	  border-radius: 5px;
-	  outline: none;
-	  overflow: hidden;
-	  position: fixed;
-	  top: 0;
-	  width: 100%;
-	  background-color: var(--denary-color);
-  }
-  
-  .menu li {
-	list-style-type: none;
-	text-decoration: none;
-	float: left;
-	background-color: var(--terciary-color);
-	padding: 10px 0 10px 0;
-	outline: none;
-	display: inline;
-  }
-  
-  /* default state */
-  .menu li a {
-	text-decoration: none;
-	color: var(--tertiary-color);
-	padding: 10px 20px;
-	background-color: var(--senary-color);
-	border-radius: 10px;
-	outline: none;
-  }
-  
-  /*BUTTON ACTIVELY BEING CLICKED */
-  
-  .menu li a:visited {
-	color: var(--septerary-color);
-	outline: none;
-  }
-  
-  .menu li a:hover {
-	background: var(--septenary-color);
-	outline: none;
-  }
-  
-  /*ENDING MENU*/
-  /*ENDING HEADER*/
-  
-  
-  /*STARTING ABOUT ME*/
-  
-  .content {
-	width: 120%;
-	margin: 0 auto;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
-  }
-  
-  .about {
-	width: 100%;
-	min-height: 250px;
-	padding: 20px;
-	overflow: hidden;
-	margin-left: 50px;
-	margin-bottom: 50px;
-  }
-  
-  .about h1 {
-	font-family: Tahoma, Geneva, sans-serif;
-	font-size: 400%;
-	margin-left: 50%;
-	margin-top: 25px;
-	color: var(--primary-color);
-  }
-  
-  .about p {
-	display: block;
-	text-align: justify;
-	margin-right: 100px;
-	margin-top: 30px;
-	font-size: 130%;
-	font-family: "Courier New", Courier, monospace;
-	color: var(--secondary-color);
-	font-size: 250%;
-  }
-  
-  .about img {
-	  margin-right: 100px;
-	  margin-left: 200px ;
-	  margin-top: 10PX;
-	  float: left;
-	  width: 300px;
-	  height: 250px;
-	  border-radius: 5px;
-	  background-color: var(--primary-color);
-	  padding: 5px;
-	}
-  
-  /*ENDING ABOUT ME*/
-  
-  /*STARTING MY WORK*/
-  
-  .thumbnails:hover {
-	  position:relative;
-	  top:20px;
-	  left:-10px;
-	  width:330px;
-	  height:auto;
-	  display:block;
-	  z-index:999;
-  }
-  
-  .thumbnail:hover {
-	  position:relative;
-	  top:20px;
-	  left:-10px;
-	  width:330px;
-	  height:auto;
-	  display:block;
-	  z-index:999;
-  }
-  
-  .work-1 {
-	min-width: 200px; 
-	min-height: 250px;
-	padding: 20px;
-	overflow: hidden;
-	margin-left: 15px;
-	float: left;
-  }
-  
-  .work-2 {
-	  min-width: 200px; 
-	  min-height: 250px;
-	  padding: 20px;
-	  overflow: hidden;
-	  margin-left: 15px;
-	  float: left;
-	}
-  
-  .work-1 img {
-	  margin: 10px 60px 0 50px;
-	  float: left;
-	  width: 300px;
-	  border-radius: 5px;
-	  background-color: var(--primary-color);
-	  padding: 5px;
-	  height: 210px;
-  }
-  
-  .work-2 img {
-	  margin: 0px 50px 60px 60px;
-	  float: left;
-	  width: 300px;
-	  border-radius: 5px;
-	  background-color: var(--primary-color);
-	  padding: 5px;
-	  height: 210px;
-  }
-  
-  .work-1 h1 {
-	font-family: Tahoma, Geneva, sans-serif;
-	color: var(--primary-color);
-	margin-top: 15px;
-  }
-  
-  .work-2 h1 {
-	  font-family: Tahoma, Geneva, sans-serif;
-	  color: var(--primary-color);
-	  margin-top: 15px;
-	  margin-left: 50px;
-	}
-  
-  .work-1 p {
-	margin-left: 15px;
-	display: block;
-	margin: 10px 60px 0 50px;
-	text-align: justify;
-	color: var(--secondary-color);
-	font-size: 200%;
-	font-family: "Courier New", Courier, monospace;
-  }
-  
-  .work-2 p {
-	margin: 10px 0 0 50px;
-	display: block;
-	text-align: justify;
-	color: var(--secondary-color);
-	font-size: 200%;
-	font-family: "Courier New", Courier, monospace;
-  }
-  
-  
-  /*ENDING MY WORK*/
-  
-  /*STARTING MY CONTACT*/
-  .contact {
-	width: 100%;
-	padding: 20px;
-	overflow: hidden;
-	margin-left: 0px;
-  }
-  
-  .contact h1 {
-	font-family: Tahoma, Geneva, sans-serif;
-	display: left;
-	font-size: 400%;
-	color: var(--primary-color);
-	margin: 50px 0px 0px 55%;
-	}
-  
-  .contact-form {
-	padding: 7px 15px;
-	margin-bottom: 5px;
-	color: var(--quaternary-color);
-	width: 100%;
-	margin-left: 45%;
-	margin-right: auto;
-  }
-  
-  .contact-form input,
-  .contact-form textarea {
-	border: 1px solid;
-	color: var(--quinary-color);
-	display: block;
-	padding: 7px 15px;
-	font-size: 16px;
-	color: var(--quaternary-color);
-	width: 40%;
-	margin-bottom: 15px;
-	margin-top: 10px;
-	
-  }
-  
-  .contact-form button {
-	width: 40%;
-	border: none;
-	background-color: var(--nonary-color);
-	color: var(--quinary-color);
-	padding: 15px 30px;
-	text-align: center;
-	margin-bottom: 15px;
-	margin-top: 10px;
-	}
-  
-  .contact p {
-	display: block;
-	margin: 15px 15px 15px 35%;
-	text-align: center;
-	font-size: 150%;
-	font-family: "Courier New", Courier, monospace;
-	color: var(--secondary-color);
-  }
-  
-  /*ENDING MY CONTACT*/
-  
-  /*STARTING MY FOOTER*/
-  .footer {
-	color: var(--septenary-color);
-	text-align: center;
-	background-color: var(--denary-color);
-	padding-top: 15px;
-	padding-bottom: 20px;
-	width: 130%;
-  }
-  
-  .footer p {
-	color: var(--primary-color);
-	text-align: center;
-	font-size: 150%;
-	font-family: "Courier New", Courier, monospace;
-  }
-  /*ENDING MY FOOTER/*
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --primary-color: #fff;
+  --secondary-color: rgb(204, 248, 138);
+  --tertiary-color: black;
+  --quaternary-color: #024e76;
+  --quinary-color: #fd3fc4;
+  --senary-color: #ccc;
+  --septenary-color: orange;
+  --octonary-color: red;
+  --nonary-color: #fce138;
+  --denary-color: #444;
+}
+
+body {
+  /* width: 1500px; */
+  background-image: url(../images/keyboard.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+/*STARTING HEADER*/
+.holder {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid;
+  color: var(--tertiary-color);
+}
+
+.banner {
+  margin-top: 40px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 30vh;
+  width: 130%;
+  border: 1px solid;
+  color: var(--tertiary-color);
+  background-image: url(../images/bannerpassword.jpg);
+}
+
+/*SEPARATOR*/
+.separation {
+  background-image: url(../images/separator.png);
+  background-repeat: repeat-x;
+  height: 10px;
+  width: 130%;
+}
+
+/*ENDING SEPARATOR*/
+
+/*STARTING MENU*/
+.menu {
+  float: right;
+  margin-right: 80px;
+  font-family: Tahoma, Geneva, sans-serif;
+  color: var(--tertiary-color);
+  text-align: center;
+  border-radius: 5px;
+  outline: none;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: var(--denary-color);
+}
+
+.menu li {
+  list-style-type: none;
+  text-decoration: none;
+  float: left;
+  background-color: var(--terciary-color);
+  padding: 10px 0 10px 0;
+  outline: none;
+  display: inline;
+}
+
+/* default state */
+.menu li a {
+  text-decoration: none;
+  color: var(--tertiary-color);
+  padding: 10px 20px;
+  background-color: var(--senary-color);
+  border-radius: 10px;
+  outline: none;
+}
+
+/*BUTTON ACTIVELY BEING CLICKED */
+
+.menu li a:visited {
+  color: var(--septerary-color);
+  outline: none;
+}
+
+.menu li a:hover {
+  background: var(--septenary-color);
+  outline: none;
+}
+
+/*ENDING MENU*/
+/*ENDING HEADER*/
+
+/*STARTING ABOUT ME*/
+
+.content {
+  width: 120%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.about {
+  width: 100%;
+  min-height: 250px;
+  padding: 20px;
+  overflow: hidden;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+
+.about h1 {
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 400%;
+  margin-left: 50%;
+  margin-top: 25px;
+  color: var(--primary-color);
+}
+
+.about p {
+  display: block;
+  text-align: justify;
+  margin-right: 100px;
+  margin-top: 30px;
+  font-size: 130%;
+  font-family: "Courier New", Courier, monospace;
+  color: var(--secondary-color);
+  font-size: 250%;
+}
+
+.about img {
+  margin-right: 100px;
+  margin-left: 200px;
+  margin-top: 10px;
+  float: left;
+  width: 300px;
+  height: 250px;
+  border-radius: 5px;
+  background-color: var(--primary-color);
+  padding: 5px;
+}
+
+/*ENDING ABOUT ME*/
+
+/*STARTING MY WORK*/
+
+.thumbnails:hover {
+  position: relative;
+  top: 20px;
+  left: -10px;
+  width: 330px;
+  height: auto;
+  display: block;
+  z-index: 999;
+}
+
+.thumbnail:hover {
+  position: relative;
+  top: 20px;
+  left: -10px;
+  width: 330px;
+  height: auto;
+  display: block;
+  z-index: 999;
+}
+
+.work-1 {
+  min-width: 200px;
+  min-height: 250px;
+  padding: 20px;
+  overflow: hidden;
+  margin-left: 15px;
+  float: left;
+}
+
+.work-2 {
+  min-width: 200px;
+  min-height: 250px;
+  padding: 20px;
+  overflow: hidden;
+  margin-left: 15px;
+  float: left;
+}
+
+.work-1 img {
+  margin: 10px 60px 0 50px;
+  float: left;
+  width: 300px;
+  border-radius: 5px;
+  background-color: var(--primary-color);
+  padding: 5px;
+  height: 210px;
+}
+
+.work-2 img {
+  margin: 0px 50px 60px 60px;
+  float: left;
+  width: 300px;
+  border-radius: 5px;
+  background-color: var(--primary-color);
+  padding: 5px;
+  height: 210px;
+}
+
+.work-1 h1 {
+  font-family: Tahoma, Geneva, sans-serif;
+  color: var(--primary-color);
+  margin-top: 15px;
+}
+
+.work-2 h1 {
+  font-family: Tahoma, Geneva, sans-serif;
+  color: var(--primary-color);
+  margin-top: 15px;
+  margin-left: 50px;
+}
+
+.work-1 p {
+  margin-left: 15px;
+  display: block;
+  margin: 10px 60px 0 50px;
+  text-align: justify;
+  color: var(--secondary-color);
+  font-size: 200%;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.work-2 p {
+  margin: 10px 0 0 50px;
+  display: block;
+  text-align: justify;
+  color: var(--secondary-color);
+  font-size: 200%;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/*ENDING MY WORK*/
+
+/*STARTING MY CONTACT*/
+.contact {
+  width: 100%;
+  padding: 20px;
+  overflow: hidden;
+  margin-left: 0px;
+}
+
+.contact h1 {
+  font-family: Tahoma, Geneva, sans-serif;
+  display: left;
+  font-size: 400%;
+  color: var(--primary-color);
+  margin: 50px 0px 0px 55%;
+}
+
+.contact-form {
+  padding: 7px 15px;
+  margin-bottom: 5px;
+  color: var(--quaternary-color);
+  width: 100%;
+  margin-left: 45%;
+  margin-right: auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+  border: 1px solid;
+  color: var(--quinary-color);
+  display: block;
+  padding: 7px 15px;
+  font-size: 16px;
+  color: var(--quaternary-color);
+  width: 40%;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+.contact-form button {
+  width: 40%;
+  border: none;
+  background-color: var(--nonary-color);
+  color: var(--quinary-color);
+  padding: 15px 30px;
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+.contact p {
+  display: block;
+  margin: 15px 15px 15px 35%;
+  text-align: center;
+  font-size: 150%;
+  font-family: "Courier New", Courier, monospace;
+  color: var(--secondary-color);
+}
+
+/*ENDING MY CONTACT*/
+
+/*STARTING MY FOOTER*/
+.footer {
+  color: var(--septenary-color);
+  text-align: center;
+  background-color: var(--denary-color);
+  padding-top: 15px;
+  padding-bottom: 20px;
+  width: 130%;
+}
+
+.footer p {
+  color: var(--primary-color);
+  text-align: center;
+  font-size: 150%;
+  font-family: "Courier New", Courier, monospace;
+}
+/*ENDING MY FOOTER/*
   
 
 
@@ -342,8 +337,7 @@
 /* STARTING 980PX SCREENS */
 
 @media screen and (max-width: 980px) {
-
-.banner {
+  .banner {
     margin-top: 40px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -353,163 +347,149 @@
     border: 1px solid;
     color: var(--tertiary-color);
     background-image: url(../images/bannerpassword.jpg);
-}
-.contact h1 {
-	margin: 40px 0px 0px 50%;
-}
-  
-.footer {
+  }
+  .contact h1 {
+    margin: 40px 0px 0px 50%;
+  }
+
+  .footer {
     color: var(--septenary-color);
     text-align: center;
     background-color: var(--denary-color);
     padding-top: 15px;
     padding-bottom: 20px;
     width: 130%;
-	}
+  }
 }
 /* ENDING 980PX SCREENS */
 
-
-
 /* STARTING 760 SCREENS */
-@media only screen and (max-width: 760px)  {
+@media only screen and (max-width: 760px) {
+  /* BANNER SECTION */
+  .banner {
+    height: 10vh;
+    width: 120%;
+  }
 
+  .separation {
+    height: 10px;
+    width: 130%;
+  }
 
-	/* BANNER SECTION */
-	.banner {
-		height: 10vh;
-		width: 120%;
-	}
+  /* ABOUT ME SECTION */
 
-	.separation {
-		height: 10px;
-		width: 130%;
-	}
+  .about h1 {
+    font-size: 300%;
+    margin-left: 15%;
+    margin-top: 2px;
+  }
 
-	/* ABOUT ME SECTION */
+  .about img {
+    margin-right: 5px;
+    margin-top: 40px;
+    margin-left: 0px;
+    margin-bottom: 40px;
+    float: left;
+    width: 200px;
+    height: 300px;
+  }
 
-	.about h1 {
-		font-size: 300%;
-		margin-left: 15%;
-		margin-top: 2px;
-	}
+  .about p {
+    margin-right: 10px;
+  }
 
-	.about img {
-		margin-right: 5px;
-		margin-top: 40px;
-		margin-left: 0px;
-		margin-bottom: 40px;
-		float: left;
-		width: 200px;
-    	height: 150px;
-	}
-	
-	.about p {
-		margin-right: 10px;
-	}
+  .work-1 img {
+    margin: 50px 50px 60px 60px;
+  }
 
-	.work-1 img {
-		margin: 50px 50px 60px 60px;
-	}
+  .work-1 h1 {
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 15px;
+  }
 
-	.work-1 h1 {
-		margin-top: 30px;
-		margin-left: 50px;
-		margin-bottom: 15px;
-	}
+  .work-2 img {
+    margin: 50px 50px 60px 60px;
+    width: 300px;
+    height: 250px;
+  }
 
-	.work-2 img {
-		margin: 50px 50px 60px 60px;
-		width: 300px;
-		height: 250px;
-	}
+  .work-2 h1 {
+    margin-top: 15px;
+    margin-left: 50px;
+    margin-bottom: 15px;
+  }
 
-	.work-2 h1 {
-		margin-top: 15px;
-		margin-left: 50px;
-		margin-bottom: 15px;
-	}
+  .work-1 p {
+    margin: 10px 0px 0 50px;
+  }
 
-	.work-1 p {
-		margin: 10px 0px 0 50px;
-	}
-	  
-	.work-2 p {
-		margin: 10px 0 0 50px;
-	}
+  .work-2 p {
+    margin: 10px 0 0 50px;
+  }
 
-	.contact h1 {
-		margin: 40px 0px 0px 25%;
-	}
+  .contact h1 {
+    margin: 40px 0px 0px 25%;
+  }
 
-	.contact p {
-		margin: 15px 15px 15px 10%;
-		text-align: center;
-		font-size: 110%;
-	}
-
+  .contact p {
+    margin: 15px 15px 15px 10%;
+    text-align: center;
+    font-size: 110%;
+  }
 }
 
 /* ENDING 760PX SCREENS */
 
-
-
 /*STARTING 575PX SCREENS*/
 
 @media screen and (max-width: 575px) {
-
-.about h1 {
+  .about h1 {
     margin-left: 25%;
     margin-top: 2px;
-}
-
-.about img {
-    margin-right: 5px;
-	margin-left: 50px;
-    width: 450px;
-}
-
-.contact h1 {
-	font-size: 300%;
-	margin: 50px 0px 0px 35%;
-	}
-
-  .contact p {
-	margin: 15px 15px 15px 25%;
-	
   }
 
+  .about img {
+    margin-right: 5px;
+    margin-left: 50px;
+    width: 450px;
+  }
+
+  .contact h1 {
+    font-size: 300%;
+    margin: 50px 0px 0px 35%;
+  }
+
+  .contact p {
+    margin: 15px 15px 15px 25%;
+  }
 }
 
 /*ENDING 575PX SCREENS*/
 
-
 /*STARTING 400PX SCREENS*/
 
 @media screen and (max-width: 400px) {
-
-.about h1 {
+  .about h1 {
     margin-left: 10%;
     margin-top: 2px;
-}
-
-.about img {
-    margin-right: 5px;
-	margin-left: 20px;
-    width: 350px;
-}
-
-.contact h1 {
-	font-size: 300%;
-	margin: 50px 0px 0px 30%;
-	}
-
-  .contact p {
-	margin: 15px 15px 15px 15%;
-	font-size: 100%;
-	
   }
 
+  .about img {
+    margin-right: 5px;
+    margin-left: 20px;
+    width: 350px;
+  }
+
+  .contact h1 {
+    font-size: 300%;
+    margin: 50px 0px 0px 30%;
+  }
+
+  .contact p {
+    margin: 15px 15px 15px 15%;
+    font-size: 100%;
+  }
 }
 
 /*ENDING 400PX SCREENS*/
