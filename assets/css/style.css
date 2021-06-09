@@ -395,13 +395,14 @@
 	}
 
 	.about img {
-		margin-right: 200px;
+		margin-right: 5px;
 		margin-top: 40px;
-		margin-left: 200px;
+		margin-left: 5px;
 		margin-bottom: 40px;
 		float: left;
 		width: 400px;
     	height: 300px;
+		
 	}
 	
 
@@ -432,7 +433,8 @@
 /*STARTING 575PX SCREENS*/
 
 @media screen and (max-width: 575px) {
-    
+
+
 
 }
 
