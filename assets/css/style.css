@@ -397,11 +397,11 @@
 	.about img {
 		margin-right: 5px;
 		margin-top: 40px;
-		margin-left: 4px;
+		margin-left: 0px;
 		margin-bottom: 40px;
 		float: left;
 		width: 200px;
-    	height: 200px;
+    	height: 150px;
 	}
 	
 	.about p {
@@ -445,7 +445,7 @@
 	.contact p {
 		margin: 15px 15px 15px 10%;
 		text-align: center;
-		font-size: 140%;
+		font-size: 110%;
 	}
 
 }
