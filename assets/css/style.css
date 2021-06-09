@@ -390,7 +390,7 @@
 
 	.about h1 {
 		font-size: 300%;
-		margin-left: 35%;
+		margin-left: 25%;
 		margin-top: 2px;
 	}
 
@@ -405,13 +405,17 @@
 		
 	}
 	
-
 	.about p {
 		margin-right: 10px;
 	}
 
 	.work-1 img {
-		margin: 30px 60px 0 50px;
+		margin: 30px 60px 30px 50px;
+	}
+
+	.work-1 h1 {
+		margin-top: 20px;
+		margin-left: 20px;
 	}
 
 	.work-2 img {
@@ -422,7 +426,7 @@
 
 
 	.contact h1 {
-		margin: 40px 0px 0px 45%;
+		margin: 40px 0px 0px 25%;
 	}
 }
 
