@@ -390,14 +390,14 @@
 
 	.about h1 {
 		font-size: 300%;
-		margin-left: 25%;
+		margin-left: 15%;
 		margin-top: 2px;
 	}
 
 	.about img {
 		margin-right: 5px;
 		margin-top: 40px;
-		margin-left: 5px;
+		margin-left: 4px;
 		margin-bottom: 40px;
 		float: left;
 		width: 400px;
@@ -410,12 +410,13 @@
 	}
 
 	.work-1 img {
-		margin: 30px 60px 30px 50px;
+		margin: 50px 50px 60px 60px;
 	}
 
 	.work-1 h1 {
-		margin-top: 20px;
-		margin-left: 20px;
+		margin-top: 30px;
+		margin-left: 50px;
+		margin-bottom: 15px;
 	}
 
 	.work-2 img {
@@ -424,6 +425,19 @@
 		height: 250px;
 	}
 
+	.work-2 h1 {
+		margin-top: 15px;
+		margin-left: 50px;
+		margin-bottom: 15px;
+	}
+
+	.work-1 p {
+		margin: 10px 0px 0 50px;
+	}
+	  
+	  .work-2 p {
+		margin: 10px 0 0 50px;
+	}
 
 	.contact h1 {
 		margin: 40px 0px 0px 25%;
