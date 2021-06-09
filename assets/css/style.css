@@ -343,13 +343,32 @@
 
 @media screen and (max-width: 980px) {
 
-
+.banner {
+    margin-top: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20vh;
+    width: 120%;
+    border: 1px solid;
+    color: var(--tertiary-color);
+    background-image: url(../images/bannerpassword.jpg);
+}
 .contact h1 {
-margin: 40px 0px 0px 50%;
-
+	margin: 40px 0px 0px 50%;
 }
   
+.footer {
+    color: var(--septenary-color);
+    text-align: center;
+    background-color: var(--denary-color);
+    padding-top: 15px;
+    padding-bottom: 20px;
+    width: 130%;
+	}
+}
 /* ENDING 980PX SCREENS */
+
 
 
 /* STARTING 760 SCREENS */
@@ -359,21 +378,26 @@ margin: 40px 0px 0px 50%;
 	/* BANNER SECTION */
 	.banner {
 		height: 10vh;
-		width: 137%;
+		width: 120%;
 	}
 
+	.separation {
+		height: 10px;
+		width: 130%;
+	}
 
 	/* ABOUT ME SECTION */
+
 	.about h1 {
 		font-size: 300%;
-		margin-left: 25%;
+		margin-left: 35%;
 		margin-top: 2px;
 	}
 
 	.about img {
-		margin-right: 100px;
+		margin-right: 200px;
 		margin-top: 40px;
-		margin-left: 155px;
+		margin-left: 200px;
 		margin-bottom: 40px;
 		float: left;
 		width: 400px;
@@ -382,56 +406,23 @@ margin: 40px 0px 0px 50%;
 	
 
 	.about p {
-		margin-right: 0px;
-	  }
-
-
-
-	/* MY WORK SECTION */
-	.work {
-		margin-left: 15px;
-		margin-bottom: 20px;
-		width: 120%;
+		margin-right: 10px;
 	}
 
-	.work-2 p {
-		margin: 10px 0 10px 50px;
+	.work-1 img {
+		margin: 30px 60px 0 50px;
 	}
 
-	.work image {
-		margin-left: 15px;
-		margin-top: 15px;
+	.work-2 img {
+		margin: 50px 50px 60px 60px;
+		width: 300px;
+		height: 250px;
 	}
 
 
-	/* CONTACT ME SECTION */
 	.contact h1 {
-		margin: 50px 100px 0px 25%;
+		margin: 40px 0px 0px 45%;
 	}
-
-	.contact p {
-	margin: 15px 15px 15px 25%;
-    text-align: center;
-    font-size: 150%;
-	}
-
-	.contact-form {
-		padding: 15px 15px;
-		margin-bottom: 5px;
-		margin-left: 40%;
-	}
-
-
-	/* FOOTER SECTION */
-	.footer {
-		width: 734px;
-	  }
-
-	.separation {
-		height: 10px;
-		width: 734px;
-	}
-
 }
 
 /* ENDING 760PX SCREENS */
@@ -442,82 +433,7 @@ margin: 40px 0px 0px 50%;
 
 @media screen and (max-width: 575px) {
     
-	/* BANNER SECTION */
-	.banner {
-		height: 10vh;
-		width: 137%;
-	}
-
-
-	/* ABOUT ME SECTION */
-	.about h1 {
-		font-size: 300%;
-		margin-left: 25%;
-		margin-top: 2px;
-	}
-
-	.about img {
-		margin-right: 100px;
-		margin-top: 40px;
-		margin-left: 155px;
-		margin-bottom: 40px;
-		float: left;
-		width: 400px;
-    	height: 300px;
-	}
-	
-
-	.about p {
-		margin-right: 0px;
-	  }
-
-
-
-	/* MY WORK SECTION */
-	.work {
-		margin-left: 15px;
-		margin-bottom: 20px;
-		width: 120%;
-	}
-
-	.work-2 p {
-		margin: 10px 0 10px 50px;
-	}
-
-	.work image {
-		margin-left: 15px;
-		margin-top: 15px;
-	}
-
-
-	/* CONTACT ME SECTION */
-	.contact h1 {
-		margin: 50px 100px 0px 25%;
-	}
-
-	.contact p {
-	margin: 15px 15px 15px 25%;
-    text-align: center;
-    font-size: 150%;
-	}
-
-	.contact-form {
-		padding: 15px 15px;
-		margin-bottom: 5px;
-		margin-left: 40%;
-	}
-
-
-	/* FOOTER SECTION */
-	.footer {
-		width: 734px;
-	  }
-
-	.separation {
-		height: 10px;
-		width: 734px;
-	}
 
 }
 
-/*STARTING 575PX SCREENS*/
+/*ENDING 575PX SCREENS*/
