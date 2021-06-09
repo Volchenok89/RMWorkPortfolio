@@ -356,3 +356,91 @@ body {
 /* MEDIA QUERY FOR MOBILE PHONES */
 
 
+
+
+
+@media only screen and (max-width: 575px)  {
+
+
+	/* BANNER SECTION */
+	.banner {
+		height: 10vh;
+		width: 137%;
+	}
+
+
+	/* ABOUT ME SECTION */
+	.about h1 {
+		font-size: 300%;
+		margin-left: 25%;
+		margin-top: 2px;
+	}
+
+	.about img {
+		margin-right: 100px;
+		margin-top: 40px;
+		margin-left: 155px;
+		margin-bottom: 40px;
+		float: left;
+		width: 400px;
+    	height: 300px;
+	}
+	
+
+	.about p {
+		margin-right: 0px;
+	  }
+
+
+
+	/* MY WORK SECTION */
+	.work {
+		margin-left: 15px;
+		margin-bottom: 20px;
+		width: 120%;
+	}
+
+	.work-2 p {
+		margin: 10px 0 10px 50px;
+	}
+
+	.work image {
+		margin-left: 15px;
+		margin-top: 15px;
+	}
+
+
+	/* CONTACT ME SECTION */
+	.contact h1 {
+		margin: 50px 100px 0px 25%;
+	}
+
+	.contact p {
+	margin: 15px 15px 15px 25%;
+    text-align: center;
+    font-size: 150%;
+	}
+
+	.contact-form {
+		padding: 15px 15px;
+		margin-bottom: 5px;
+		margin-left: 40%;
+	}
+
+
+	/* FOOTER SECTION */
+	.footer {
+		width: 734px;
+	  }
+
+	.separation {
+		height: 10px;
+		width: 734px;
+	}
+
+	
+}
+
+
+/*ENDING SMALLER SCREENS*/
+
