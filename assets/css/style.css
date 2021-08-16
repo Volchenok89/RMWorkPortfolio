@@ -208,8 +208,17 @@ body {
   float: left;
 }
 
+.work-4 {
+  min-width: 200px;
+  min-height: 250px;
+  padding: 20px;
+  overflow: hidden;
+  margin-left: 15px;
+  float: left;
+}
+
 .work-1 img {
-  margin: 10px 60px 0 50px;
+  margin: 0px 50px 60px 60px;
   float: left;
   width: 300px;
   border-radius: 5px;
@@ -229,6 +238,16 @@ body {
 }
 
 .work-3 img {
+  margin: 0px 50px 60px 60px;
+  float: left;
+  width: 300px;
+  border-radius: 5px;
+  background-color: var(--primary-color);
+  padding: 5px;
+  height: 210px;
+}
+
+.work-4 img {
   margin: 0px 50px 60px 60px;
   float: left;
   width: 300px;
@@ -258,6 +277,13 @@ body {
   margin-left: 50px;
 }
 
+.work-4 h1 {
+  font-family: Tahoma, Geneva, sans-serif;
+  color: var(--primary-color);
+  margin-top: 15px;
+  margin-left: 50px;
+}
+
 .work-1 p {
   margin-left: 15px;
   display: block;
@@ -278,6 +304,15 @@ body {
 }
 
 .work-3 p {
+  margin: 10px 0 0 50px;
+  display: block;
+  text-align: justify;
+  color: var(--secondary-color);
+  font-size: 200%;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.work-4 p {
   margin: 10px 0 0 50px;
   display: block;
   text-align: justify;
